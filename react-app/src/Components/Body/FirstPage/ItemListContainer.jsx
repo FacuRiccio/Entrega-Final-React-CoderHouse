@@ -1,9 +1,9 @@
 import ItemList from "./ItemList";
 
-function ItemListContainer({ apiRes }) {
+function ItemListContainer() {
   return (
     <div>
-      <ItemList data={apiRes}></ItemList>
+      <ItemList></ItemList>
     </div>
   );
 }

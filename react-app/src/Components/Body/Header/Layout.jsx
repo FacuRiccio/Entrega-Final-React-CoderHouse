@@ -1,9 +1,9 @@
 import NavBar from "./NavBar";
 
-const Layout = ({ apiRes }) => {
+const Layout = () => {
   return (
     <div className="Layout">
-      <NavBar datos={apiRes}></NavBar>
+      <NavBar ></NavBar>
       <hr />
     </div>
   );
