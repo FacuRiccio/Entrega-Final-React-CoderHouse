@@ -12,12 +12,15 @@
   "dependencies": {
     "bootstrap": "^5.3.8",
     "firebase": "^12.6.0",
+    "install": "^0.13.0",
+    "npm": "^11.6.4",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.10",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.67.0",
-    "react-resolver": "^3.1.2",
+    "react-icons": "^5.5.0",
     "react-router-dom": "^7.10.0",
+    "resolve": "^2.0.0-next.5",
     "zod": "^4.1.13"
   },
   "devDependencies": {
