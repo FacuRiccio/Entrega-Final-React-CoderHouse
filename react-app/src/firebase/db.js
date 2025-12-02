@@ -45,7 +45,7 @@ export const getProduct = async (id) => {
   const docRef = doc(db, "productos", id);
   const docSnap = await getDoc(docRef);
   if (docSnap.exists()) {
-    console.log( docSnap.data());
+    return docSnap.data();
   } else {
     console.log("No such document!");
   }

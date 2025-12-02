@@ -5,7 +5,7 @@ import { getProduct } from "../../../firebase/db";
 import ItemClick from "./ItemClick";
 
 function ItemInfo() {
-  const [prod, setProd] = useState(null);
+  const [prod, setProd] = useState();
   const { id } = useParams();
   const [count, setCount] = useState(0);
   const { cartState, addToCart, restCart } = useContext(CartContext);
@@ -29,7 +29,6 @@ function ItemInfo() {
       restCart();
     }
   };
-  // const handleAddToCard = () => addToCart({ ...cartState, prod });
   if (count < 0);
   return (
     <ItemClick

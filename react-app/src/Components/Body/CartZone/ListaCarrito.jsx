@@ -13,9 +13,7 @@ function ListaCarrito() {
     <div>
       <div>
         {prod.map((item) => {
-          return (
-            <ProductosCarrito items={item} key={item.title}  />
-          );
+          return <ProductosCarrito items={item} key={item.prod.title} />;
         })}
       </div>
 
